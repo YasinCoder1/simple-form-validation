@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <form class="form" id="form">
+      <h2>Login</h2>
+      <div class="form-control">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter your username" />
+        <small>Error message</small>
+        <!--Place to show validation message/error-->
+      </div>
+      <div class="form-control">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" /> 
+        <small>Error message</small>
+        <!--Place to show validation message/error-->
+      </div>
+      <div class="form-control">
+        <label for="password2">Confirm Password</label>
+        <input type="password" id="password2" placeholder="Enter password again" />
+        <small>Error message</small>
+          <!--Place to show validation message/error-->
+      </div>
+      <div class="checkbox-and-signup-cont">
+        <span class="checkbox-cont">
+          <input type="checkbox" name="remember-me" id="remember-me" /> 
+          <p>Remeber me</p>
+        </span>
+          
+        <span class="sign-up-cont">
+            <a class="sign-up" href="#">Sign up</a>
+        </span>
+      </div>
+      
+      <button>Login</button>
+    </form>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
